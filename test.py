@@ -4,7 +4,7 @@ class Bot(commands.Bot):
     
     def __init__(self):
         super().__init__(
-            token='oauth:sgtd2kp32i62fk80u0t2sz7x0fsayj',
+            token='oe5zzmr7rwvbolgqcd9fgnkiz2jfjv',
             prefix='!',
             initial_channels=['jaggerv'])
     
