@@ -4,7 +4,7 @@ class Bot(commands.Bot):
     
     def __init__(self):
         super().__init__(
-            token='oe5zzmr7rwvbolgqcd9fgnkiz2jfjv',
+            token='oauth:176dfmo46eeunhd8lydn7v2wsx6wtr',
             prefix='!',
             initial_channels=['jaggerv'])
     
@@ -14,7 +14,11 @@ class Bot(commands.Bot):
 
     @commands.command()
     async def hola(self, ctx: commands.Context):
-        await ctx.send(f'Hola {ctx.author.name}!')
+        await ctx.send(f'Hola {ctx.author.name}! ratJAM')
+
+    @commands.command()
+    async def chao(self, ctx: commands.Context):
+        await ctx.send(f'Chao {ctx.author.name}! ratJAM')
 
 bot = Bot()
 bot.run()
